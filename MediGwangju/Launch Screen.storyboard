@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bse-D1-p72">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_global" translatesAutoresizingMaskIntoConstraints="NO" id="Xwu-lU-dNT">
+                                <rect key="frame" x="-37.5" y="454.5" width="450" height="512"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Xwu-lU-dNT" secondAttribute="height" multiplier="225:256" id="GKA-MO-HL1"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Marker_2" translatesAutoresizingMaskIntoConstraints="NO" id="pRU-EQ-Upz">
+                                <rect key="frame" x="59.5" y="333.5" width="256" height="133.5"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medi-Gwangju" highlightedImage="medi-Gwangju" translatesAutoresizingMaskIntoConstraints="NO" id="Opw-ka-Tpa">
+                                <rect key="frame" x="75.5" y="0.0" width="225" height="509"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BeHealthy" highlightedImage="BeHealthy" translatesAutoresizingMaskIntoConstraints="NO" id="qpE-e8-POC">
+                                <rect key="frame" x="112.5" y="129.5" width="150" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qpE-e8-POC" firstAttribute="centerY" secondItem="Bse-D1-p72" secondAttribute="centerY" multiplier="0.58" id="8Jt-dp-b0l"/>
+                            <constraint firstItem="Xwu-lU-dNT" firstAttribute="width" secondItem="Bse-D1-p72" secondAttribute="width" multiplier="1.2" id="9xd-hf-Rrw"/>
+                            <constraint firstItem="Xwu-lU-dNT" firstAttribute="centerX" secondItem="Bse-D1-p72" secondAttribute="centerX" id="AdL-pJ-0lq"/>
+                            <constraint firstItem="Xwu-lU-dNT" firstAttribute="centerY" secondItem="Bse-D1-p72" secondAttribute="centerY" multiplier="2.13" id="Cj8-vT-AOg"/>
+                            <constraint firstItem="pRU-EQ-Upz" firstAttribute="centerY" secondItem="Bse-D1-p72" secondAttribute="centerY" multiplier="1.2" id="Dm3-Uy-Vff"/>
+                            <constraint firstItem="Opw-ka-Tpa" firstAttribute="width" secondItem="Bse-D1-p72" secondAttribute="width" multiplier="0.6" id="T8q-2c-h3q"/>
+                            <constraint firstItem="qpE-e8-POC" firstAttribute="centerX" secondItem="Bse-D1-p72" secondAttribute="centerX" id="VRx-lj-So3"/>
+                            <constraint firstItem="qpE-e8-POC" firstAttribute="width" secondItem="Bse-D1-p72" secondAttribute="width" multiplier="0.4" id="WOf-UU-LpL"/>
+                            <constraint firstItem="pRU-EQ-Upz" firstAttribute="height" secondItem="Bse-D1-p72" secondAttribute="height" multiplier="0.2" id="Wi6-Vq-Li2"/>
+                            <constraint firstItem="Opw-ka-Tpa" firstAttribute="centerX" secondItem="Bse-D1-p72" secondAttribute="centerX" id="aeM-dU-esZ"/>
+                            <constraint firstItem="Xwu-lU-dNT" firstAttribute="width" secondItem="Bse-D1-p72" secondAttribute="height" multiplier="450:667" id="jc2-j6-cyL"/>
+                            <constraint firstItem="pRU-EQ-Upz" firstAttribute="centerX" secondItem="Bse-D1-p72" secondAttribute="centerX" id="r9z-YQ-MMw"/>
+                            <constraint firstItem="Opw-ka-Tpa" firstAttribute="top" secondItem="Bse-D1-p72" secondAttribute="top" id="scS-jp-VPb"/>
+                            <constraint firstAttribute="bottom" secondItem="Opw-ka-Tpa" secondAttribute="bottom" multiplier="1.31" id="xts-un-Xo5"/>
+                            <constraint firstItem="pRU-EQ-Upz" firstAttribute="width" secondItem="Bse-D1-p72" secondAttribute="height" multiplier="256:667" id="yma-h8-9SL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OfP-HW-vLN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BeHealthy" width="332" height="128"/>
+        <image name="Marker_2" width="256" height="256"/>
+        <image name="launch_global" width="512" height="512"/>
+        <image name="medi-Gwangju" width="831" height="128"/>
+    </resources>
+</document>
